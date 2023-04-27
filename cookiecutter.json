@@ -1,0 +1,8 @@
+{
+    "project_name": "Enter the fullname of the project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_description": "Enter a description of the project for README",
+    "username": "Enter your name for README",
+    "use_docker_hub_image": ["yes", "no"],
+    "docker_hub_image_name": "Enter the name of the Docker image from Docker Hub"
+}
